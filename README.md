@@ -1,10 +1,10 @@
 # Stock-Market-DB
 
-##Stock Market Analytics 📈
+**Stock Market Analytics 📈**
 
 Analyze stocks, investors, portfolios, trades, and market performance using SQL to gain insights into trading behavior, portfolio performance, and investment trends.
 
-🎯 Business Objectives  
+**🎯 Business Objectives**  
 ✅ Analyze stock trading activity  
 ✅ Track investor portfolios  
 ✅ Monitor stock price movements  
@@ -14,7 +14,7 @@ Analyze stocks, investors, portfolios, trades, and market performance using SQL 
 ✅ Calculate investment returns  
 ✅ Build executive investment dashboards  
 
-🧠 SQL Concepts You'll Practice  
+**🧠 SQL Concepts You'll Practice**  
 ✔️ DDL & DML  
 ✔️ INNER JOIN  
 ✔️ LEFT JOIN  
@@ -27,7 +27,7 @@ Analyze stocks, investors, portfolios, trades, and market performance using SQL 
 ✔️ Window Functions  
 ✔️ Ranking Functions  
 
-📊 Business KPIs You Can Build  
+**📊 Business KPIs You Can Build**  
 📈 Total Investors  
 📈 Total Trades  
 📈 Buy vs Sell Transactions  
