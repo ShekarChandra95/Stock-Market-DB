@@ -1,3 +1,5 @@
+-- Project Series #1: Stock market DB analysis
+
 -- Creating the Database
 -- CREATE DATABASE stock_market_db;
 -- USE stock_market_db;
@@ -79,3 +81,4 @@ INSERT INTO daily_price value
 (5, 105, '2025-01-09', 4800,3200,5100,3120, 78000),
 (6, 106, '2025-01-10', 2100,3500,4500,3100, 150600);
 
+-- # Continue...
