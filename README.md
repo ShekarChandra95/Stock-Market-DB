@@ -19,7 +19,6 @@ Analyze stocks, investors, portfolios, trades, and market performance using SQL 
    
     DML — Data Manipulation Language
     DML commands work with the data inside tables — inserting, reading, updating, deleting rows. These changes are not auto-committed by default in transactional engines like InnoDB — you can COMMIT or ROLLBACK.
-    <img width="905" height="259" alt="image" src="https://github.com/user-attachments/assets/aa38bfc1-a1a4-452d-9652-254215727d6d" />
 
 ✔️ INNER JOIN  
 ✔️ LEFT JOIN  
