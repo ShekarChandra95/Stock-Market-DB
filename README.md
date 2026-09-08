@@ -15,7 +15,9 @@ Analyze stocks, investors, portfolios, trades, and market performance using SQL 
 ✅ Build executive investment dashboards  
 
 **🧠 SQL Concepts You'll Practice**  
-✔️ DDL & DML  
+✔️ DDL & DML
+    <img width="905" height="259" alt="image" src="https://github.com/user-attachments/assets/aa38bfc1-a1a4-452d-9652-254215727d6d" />
+
 ✔️ INNER JOIN  
 ✔️ LEFT JOIN  
 ✔️ Aggregate Functions  
