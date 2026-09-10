@@ -81,4 +81,6 @@ INSERT INTO daily_price value
 (5, 105, '2025-01-09', 4800,3200,5100,3120, 78000),
 (6, 106, '2025-01-10', 2100,3500,4500,3100, 150600);
 
+UPDATE trades SET price = 4350 WHERE trade_id = 1001;
+DELETE FROM trades WHERE trade_id = 1006;
 -- # Continue...
