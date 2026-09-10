@@ -95,4 +95,14 @@ INNER JOIN stock_1 s ON t.stock_id = s.stock_id;
 SELECT i.ineventors_Name, i.trade_id, t.transaction_type
 FROM inventors_1 i
 LEFT JOIN trades t ON i.trades_id = t.trades_id;
+
+-- Aggregation
+
+SELECT COUNT(*) AS total_trade,
+		SUM(Quantity) AS total_quantity,
+		AVG(Price) AS avg_price,
+		MAX(Price) AS highest_price,
+		MIN(Price) AS lowest_proce,
+FROM trades;
+
 -- # Continue...
