@@ -21,10 +21,10 @@ Analyze stocks, investors, portfolios, trades, and market performance using SQL 
     DML commands work with the data inside tables — inserting, reading, updating, deleting rows. These changes are not auto-committed by default in transactional engines like InnoDB — you can COMMIT or ROLLBACK.
 
 ✔️ INNER JOIN  
-   Inner joins return only rows that match in both tables - trades with their stock details.
+   Inner join return only rows that match in both tables - trades with their stock details.
    
 ✔️ LEFT JOIN 
-   return the matches From right table to left table. if there is no matches in right table return null value.
+   Left join return the matches from the right table to the left table. If there are no matches in the right table, return a NULL value.
    
 ✔️ Aggregate Functions  
 ✔️ GROUP BY  
