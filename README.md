@@ -24,6 +24,8 @@ Analyze stocks, investors, portfolios, trades, and market performance using SQL 
    Inner joins return only rows that match in both tables - trades with their stock details.
    
 ✔️ LEFT JOIN 
+   return the matches From right table to left table. if there is no matches in right table return null value.
+   
 ✔️ Aggregate Functions  
 ✔️ GROUP BY  
 ✔️ HAVING  
