@@ -83,4 +83,16 @@ INSERT INTO daily_price value
 
 UPDATE trades SET price = 4350 WHERE trade_id = 1001;
 DELETE FROM trades WHERE trade_id = 1006;
+
+-- Inner Joins
+
+SELECT t.trade_id, s.company_Name, t.transaction_type, t.Quantity, t.Price
+FROM trades t
+INNER JOIN stock_1 s ON t.stock_id = s.stock_id;
+
+-- Left Join
+
+SELECT i.ineventors_Name, i.trade_id, t.transaction_type
+FROM inventors_1 i
+LEFT JOIN trades t ON i.trades_id = t.trades_id;
 -- # Continue...
