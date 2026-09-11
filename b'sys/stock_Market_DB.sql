@@ -103,6 +103,9 @@ SELECT COUNT(*) AS total_trade,
 		AVG(Price) AS avg_price,
 		MAX(Price) AS highest_price,
 		MIN(Price) AS lowest_proce,
-FROM trades;
+FROM trades t
+JOIN stocks_1 s ON t.stock_id = s.stock_id
+GROUP BY s.ticker, s.company_Name
+ORDER BY total_trade_value DECS;
 
 -- # Continue...
