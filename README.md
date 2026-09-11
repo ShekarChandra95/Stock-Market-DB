@@ -26,8 +26,11 @@ Analyze stocks, investors, portfolios, trades, and market performance using SQL 
 ✔️ LEFT JOIN 
    Left join return the matches from the right table to the left table. If there are no matches in the right table, return a NULL value.
    
-✔️ Aggregate Functions  
-✔️ GROUP BY  
+✔️ Aggregate Functions 
+   Volume/value per stock(COUNT, SUM, AVG, MAX, MIN)
+   
+✔️ GROUP BY 
+   
 ✔️ HAVING  
 ✔️ CASE WHEN  
 ✔️ Date Functions  
