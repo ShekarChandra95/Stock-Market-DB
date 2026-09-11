@@ -30,11 +30,17 @@ Analyze stocks, investors, portfolios, trades, and market performance using SQL 
    Volume/value per stock(COUNT, SUM, AVG, MAX, MIN)
    
 ✔️ HAVING - stocks >2 trades and > 10K traded value
+
 ✔️ CASE WHEN  - trade size bucket, and a sector trend label (Bullish/Neutral/Bearish)
+
 ✔️ Date Functions - monthly rollups, inventor tenure, days since IPO
+
 ✔️ CTEs  - a two-step build (trade_flow -> latest_price) to compute live unrealized P&L per positioins
+
 ✔️ Window Functions - running trade-value totals, day-over-day price change (LAG)
+
 ✔️ Ranking Functions - RANK, DENSE_RANK, ROW_NUMBER compared side by side, plus "top 2 trades per portfolio"
+
 ✔️ Executive dashboard — one consolidated query ranking investors by activity and traded value.
 
 **📊 Business KPIs You Can Build**  
